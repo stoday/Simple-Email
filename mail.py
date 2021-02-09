@@ -41,7 +41,7 @@ def make_zip_file(zip_file_name, target_dictionary, filter_ext_name):
         for tar_file in tar_files_list:
             zip_obj.write(tar_file)
 
-make_zip_file('ttt.zip', '.', '.log')
+make_zip_file('files.zip', '.', '.log')
 
 # Create a multipart message
 port = 587  # For SSL
